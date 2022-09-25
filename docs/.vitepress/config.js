@@ -1,5 +1,5 @@
 const config = {
-    title: 'Standards',
+    title: 'Sui Metadata Standards',
     description: 'Standards for Sui projects to support wallet.',
   
     lastUpdated: true,

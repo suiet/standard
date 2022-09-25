@@ -1,4 +1,4 @@
-# NFT Standard
+# NFT Metadata Standard
 
 ## NFT
 

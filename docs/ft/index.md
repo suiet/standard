@@ -1,4 +1,4 @@
-# Fungible Token Standard
+# Fungible Token Metadata Standard
 
 ## FT
 
@@ -15,7 +15,7 @@ Here is a sample of the metadata:
 
 ```json
 {
-  "type": "0x3645d45683e8bde7608d5adc677b8301f1d053dc::std_nft::NftMeta",
+  "type": "coin::Coin<0x2::usdc::USDC>",
   "fields": {
     "name": "USDC",
     "description": "USDC coin on sui.",
