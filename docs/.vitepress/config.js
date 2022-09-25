@@ -22,12 +22,28 @@ const config = {
       sidebar: {
         '/': [
           {
-            text: 'NFTs',
+            text: 'Overview',
             collapsible: true,
             collapsed: false,
             items: [
-              { text: 'NFTs', link: '/nfts/' },
-              { text: 'Metadata', link: '/nfts/metadata' },
+              { text: 'overview', link: '/' },
+            ]
+          },
+          {
+            text: 'FT(Fungible Token)',
+            collapsible: true,
+            collapsed: false,
+            items: [
+              { text: 'Fungible Token', link: '/ft/' },
+            ]
+          },
+          {
+            text: 'NFT',
+            collapsible: true,
+            collapsed: false,
+            items: [
+              { text: 'NFT', link: '/nft/' },
+              { text: 'NFT Collections', link: '/nft/collections' },
             ]
           }
         ]
