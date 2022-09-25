@@ -52,7 +52,11 @@ Here is a sample of the metadata:
 
 ## Rendering Media
 
-We recommend that creators put media files on IPFS, and we will choose a relatively fast IPFS gateway as the default gateway in the future.
+We recommend that using the ipfs protocol when putting media files on IPFS(same as Arweave), here are some reasons:
+
+1. Using IPFS protocol can ensure the media is pointing to the unique file on ipfs network, rather than the file on a specific gateway server.
+2. The gateway might be nolonger maintained in the future, and the url will be broken.
+3. Dapps can choose the fastest gateway when user accessing the media, can help to imporve the user experience.
 
 ### Selecting Media
 
