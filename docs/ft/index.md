@@ -11,6 +11,20 @@ When displaying the detail view of an individual NFT, Suiet will look to these f
 | symbol                | string | Symbol of the asset.               |
 | url                   | url    | URL pointing to the asset's image. |
 
+Here is a sample of the metadata:
+
+```json
+{
+  "type": "0x3645d45683e8bde7608d5adc677b8301f1d053dc::std_nft::NftMeta",
+  "fields": {
+    "name": "USDC",
+    "description": "USDC coin on sui.",
+    "url": "https://www.circle.com/hs-fs/hubfs/sundaes/USDC.png?width=540&height=540&name=USDC.png",
+    "symbol": "USDC"
+  }
+}
+```
+
 ## Rendering Media
 
 We recommend that creators put media files on IPFS, and we will choose a relatively fast IPFS gateway as the default gateway in the future.

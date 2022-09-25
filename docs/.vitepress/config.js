@@ -173,7 +173,7 @@ const config = {
   
   
       // options for markdown-it-toc-done-right
-      toc: { level: [1, 2, 3] },
+      // toc: { level: [1, 2, 3] },
     },
    
   }

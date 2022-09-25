@@ -16,6 +16,40 @@ When displaying the detail view of an individual NFT, Suiet will look to these f
 | attribute_keys           | array  | Array of keys of attributes defining the characteristics of the asset.        |
 | attribute_values         | array  | Array of values of attributes defining the characteristics of the asset.      |
 
+Here is a sample of the metadata:
+
+```json
+{
+  "type": "0x3645d45683e8bde7608d5adc677b8301f1d053dc::std_nft::NftMeta",
+  "fields": {
+    "name": "Suiet",
+    "description": "Suiet is a decentralized social network for NFTs.",
+    "url": "https://suiet.app/logo.png",
+    "collection_id": "suiet",
+    "animation_url": "https://suiet.app/logo.gif",
+    "external_url": "https://suiet.app",
+    "attributes_keys": [
+      "Button type",
+      "Attribute count",
+      "Type",
+      "Rarity",
+      "Joystick",
+      "Body",
+      "Background"
+    ],
+    "attributes_values": [
+      "Pink",
+      "2",
+      "Genesis",
+      "Uncommon",
+      "Rage",
+      "Rage",
+      "Violet"
+    ]
+  }
+}
+```
+
 ## Rendering Media
 
 We recommend that creators put media files on IPFS, and we will choose a relatively fast IPFS gateway as the default gateway in the future.

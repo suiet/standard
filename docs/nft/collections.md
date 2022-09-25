@@ -8,3 +8,15 @@ Suiet groups NFTs by their collections. Thus in order to be grouped together, in
 | description             | string | Description of the collection.                                                |
 | url (optional)          | Url    | URL pointing to the collection's image.                                       |
 | external_url (optional) | Url    | URL pointing to an external URL defining the asset — e.g. a game's main site. |
+
+```json
+{
+  "type": "0x3645d45683e8bde7608d5adc677b8301f1d053dc::std_nft::NftMeta",
+  "fields": {
+    "name": "Suiet NFT collection",
+    "description": "This is a suiet NFT collection.",
+    "url": "https://suiet.io/logo.png",
+    "external_url": "https://suiet.app"
+  }
+}
+```
