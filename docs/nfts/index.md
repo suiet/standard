@@ -20,16 +20,17 @@ Suiet groups NFTs by their collections. Thus in order to be grouped together, in
 
 When displaying the detail view of an individual NFT, Suiet will look to these fields in the following table:
 
-| Field            | Type   | Description                                                                     |
-| ---------------- | ------ | ------------------------------------------------------------------------------- |
-| name             | string | Name of the asset.                                                              |
-| symbol           | string | Symbol of the asset.                                                            |
-| description      | string | Description of the asset.                                                       |
-| url              | Url    | URL pointing to the asset's logo.                                               |
-| animation_url    | Url    | URL pointing to the asset's animation.                                          |
-| external_url     | Url    | URL pointing to an external URL defining the asset — e.g. the game's main site. |
-| attribute_keys   | array  | Array of keys of attributes defining the characteristics of the asset.          |
-| attribute_values | array  | Array of values of attributes defining the characteristics of the asset.        |
+| Field                    | Type   | Description                                                                     |
+| ------------------------ | ------ | ------------------------------------------------------------------------------- |
+| name                     | string | Name of the asset.                                                              |
+| symbol                   | string | Symbol of the asset.                                                            |
+| description              | string | Description of the asset.                                                       |
+| url                      | Url    | URL pointing to the asset's logo.                                               |
+| collection_id (optional) | UID    | Object ID of the NFT's collection.                                              |
+| animation_url(optional)  | Url    | URL pointing to the asset's animation.                                          |
+| external_url (optional)  | Url    | URL pointing to an external URL defining the asset — e.g. the game's main site. |
+| attribute_keys           | array  | Array of keys of attributes defining the characteristics of the asset.          |
+| attribute_values         | array  | Array of values of attributes defining the characteristics of the asset.        |
 
 ## Rendering Media
 
