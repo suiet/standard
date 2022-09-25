@@ -1,6 +1,6 @@
 # Fungible Token Standard
 
-## NFT
+## FT
 
 When displaying the detail view of an individual NFT, Suiet will look to these fields in the following table:
 
