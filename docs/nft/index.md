@@ -9,7 +9,7 @@ When displaying the detail view of an individual NFT, Suiet will look to these f
 | name                     | string | Name of the asset.                                                            |
 | description              | string | Description of the asset.                                                     |
 | url                      | url    | URL pointing to the asset's image.                                            |
-| collection_id (optional) | string | Object ID of the NFT's collection.                                            |
+| collection_id (optional) | uid    | Object ID of the NFT's collection.                                            |
 | symbol (optional)        | string | Symbol of the asset.                                                          |
 | animation_url(optional)  | url    | URL pointing to the asset's animation.                                        |
 | external_url (optional)  | url    | URL pointing to an external URL defining the asset — e.g. a game's main site. |
@@ -25,7 +25,7 @@ Here is a sample of the metadata:
     "name": "Suiet",
     "description": "Suiet is a decentralized social network for NFTs.",
     "url": "https://suiet.app/logo.png",
-    "collection_id": "suiet",
+    "collection_id": "0x59bd48a0cc36a577795ba0a15ed424feaa7cdb52",
     "animation_url": "https://suiet.app/logo.gif",
     "external_url": "https://suiet.app",
     "attributes_keys": [
